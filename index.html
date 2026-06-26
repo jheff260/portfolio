@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jheff | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <div class="container header-layout">
+            <a class="logo" href="#hero">
+                <div class="logo-mark">JM</div>
+                <div class="logo-text">Jefferson Miranda</div>
+            </a>
+            <nav class="nav" id="nav">
+                <div class="drawer-panel" id="drawerPanel">
+                    <div class="drawer-header">
+                        <div class="drawer-brand">
+                            <span class="drawer-mark">JM</span>
+                            <div class="drawer-brand-text"><strong>Jefferson Miranda</strong><span>Workflow Automation Specialist</span></div>
+                        </div>
+                        <button class="drawer-close" id="drawerClose" aria-label="Close Menu"><svg viewBox = "0 0 24 24" width = "20" height = "20" fill = "none" stroke = "currentColor" stroke-width = "2" stroke-linecap = "round" stroke-linejoin = "round"><path d="M18 6 6 18M6 6l12 12"></path></svg></button>
+                    </div>
+
+                    <ul class="nav-menu">
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="drawer-cta">
+                        <a href="#contact" class="btn btn-primary">Let's Talk</a>
+                        <p class="drawer-foot">&copy; <span class="drawer-year"></span> Jefferson Miranda</p>
+                    </div>
+                </div>
+            </nav>
+            <a href="#contact" class="header-cta">Lets Talk</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open Menu" aria-expanded="false" aria-controls="drawerPanel">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="drawer-overlay" id="drawerOverlay"></div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="section hero" id="hero">
+            <div class="container">
+                <div class="hero-layout">
+                    <div class="hero-content">
+                        <div class="hero-badge">Available for Freelance Projects</div>
+                        <h1>Jefferson Miranda</h1>
+                        <p class="hero-role">Workflow Automation Specialist</p>
+                        <p class="hero-tagline">Reducing manual effort. Increasing operational efficiency.</p>
+                        <div class="hero-cta">
+                            <a href="#projects" class="btn btn-primary">View My Work →</a>
+                            <a href="#contact" class="btn btn-ghost">Start a Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section services" id="services">
+            <div class="container">
+                <div class="services-layout">
+                    <div class="section-header reveal">
+                        <p class="section-label">SERVICES</p>
+                        <h2 class="section-title">Automation Services</h2>
+                        <p class="section-description">End-to-end automation solutions that connect your tools, eliminate repetitive work, and help your business operate more efficiently.</p>
+                    </div>
+
+                    <div class="services-grid">
+                        <div class="service-card reveal">
+                            <div class="service-card__icon">⚡</div>
+                            <h3 class="service-card__title">Workflow Automation</h3>
+                            <p class="service-card__text">Zapier, Make, GoHighLevel, N8n</p>
+                        </div>
+
+                        <div class="service-card reveal">
+                            <div class="service-card__icon">🔌</div>
+                            <h3 class="service-card__title">API Integration & Scripting</h3>
+                            <p class="service-card__text">REST APIs, Webhooks, Google Apps Script, JavaScript. Custom connectors between any systems.</p>
+                        </div>
+
+                        <div class="service-card reveal">
+                            <div class="service-card__icon">📈</div>
+                            <h3 class="service-card__title">CRM & Marketing Automation</h3>
+                            <p class="service-card__text">HubSpot, GoHighLevel, ActiveCampaign — pipelines, sequences, and lifecycle automation.</p>
+                        </div>
+
+                        <div class="service-card reveal">
+                            <div class="service-card__icon">🗂️</div>
+                            <h3 class="service-card__title">Data Management & Sync</h3>
+                            <p class="service-card__text">Google Sheets, Airtable, Notion. Two-way syncs and single-source-of-truth dashboards.</p>
+                        </div>
+
+                        <div class="service-card reveal">
+                            <div class="service-card__icon">🤖</div>
+                            <h3 class="service-card__title">AI-Powered Automation</h3>
+                            <p class="service-card__text">Content repurposing, parsing, AI-driven workflows that save hours every week.</p>
+                        </div>
+
+                        <div class="service-card reveal">
+                            <div class="service-card__icon">🧭</div>
+                            <h3 class="service-card__title">Process Consultation</h3>
+                            <p class="service-card__text">Automation audits, training sessions, and best practices to future-proof your stack.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section projects" id="projects">
+            <div class="container">
+                <div class="projects-layout">
+                    <div class="section-header reveal">
+                        <p class="section-label">CASE STUDIES</p>
+                        <h2 class="section-title">Automation Case Studies</h2>
+                        <p class="section-description">Real-world AI agents and automation workflows designed to eliminate repetitive tasks, improve efficiency, and help businesses scale.</p>
+                    </div>
+
+                    <article class="featured-project">
+                        <div class="featured-project-visual">
+                            <img src="assets/images/Nutritionist Ai Agent.png" alt="Nutritionist AI Agent automation workflow" loading="lazy">
+                        </div>
+                        <div class="featured-project-content">
+                            <span class="project-badge">FEATURED PROJECT</span>
+                            <h3 class="featured-project-title">Nutritionist AI Agent</h3>
+                            <p class="featured-project-description">
+                                An AI-powered nutrition tracking assistant that lets users send food photos, voice messages, or text through Telegram. It estimates calories and macros, saves meal history, checks calorie goals, and delivers personalized coaching feedback.
+                            </p>
+                            <div class="project-stack">
+                                <span>n8n</span>
+                                <span>Telegram</span>
+                                <span>OpenAI</span>
+                                <span>Google Sheets</span>
+                                <span>Google Drive</span>
+                            </div>
+                            <a href="project-nutritionist-ai-agent.html" class="btn btn-primary">View Case Study</a>
+                        </div>
+                    </article>
+
+                    <div class="projects-grid">
+                        <article class="project-card">
+                            <div class="project-visual">
+                                <img src="assets/images/Customer Feedback sentiment analysis.png" alt="Customer Feedback sentiment analysis workflow" loading="lazy">
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Customer Feedback Sentiment Analysis</h3>
+                                <p class="project-description">Collects customer feedback through a form, uses AI to identify sentiment, saves feedback records to Google Sheets, and sends personalized email responses automatically.</p>
+                                <div class="project-stack">
+                                    <span>n8n</span>
+                                    <span>OpenAI</span>
+                                    <span>Google Sheets</span>
+                                    <span>Gmail</span>
+                                </div>
+                                <a href="project-customer-feedback.html" class="project-link">View Case Study →</a>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-visual">
+                                <img src="assets/images/Daily news Ai agent.png" alt="Daily News AI Agent n8n workflow" loading="lazy">
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Daily AI News Briefing Agent</h3>
+                                <p class="project-description">Automatically collects the latest AI news every morning, selects the most relevant articles, creates concise summaries with source links, and sends a daily briefing through Telegram.</p>
+                                <div class="project-stack">
+                                    <span>n8n</span>
+                                    <span>OpenAI</span>
+                                    <span>NewsAPI</span>
+                                    <span>GNews</span>
+                                    <span>Telegram</span>
+                                </div>
+                                <a href="project-daily-news-ai-agent.html" class="project-link">View Case Study →</a>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-visual">
+                                <img src="assets/images/Ai Agent for Facebook.png" alt="Facebook Messenger customer support AI agent workflow" loading="lazy">
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Facebook Messenger Support AI Agent</h3>
+                                <p class="project-description">A knowledge-base-powered Facebook Messenger assistant that answers customer questions using approved Google Docs content and routes unsupported or sensitive requests to human support.</p>
+                                <div class="project-stack">
+                                    <span>n8n</span>
+                                    <span>Facebook Messenger</span>
+                                    <span>Google Gemini</span>
+                                    <span>Google Docs</span>
+                                    <span>Webhooks</span>
+                                </div>
+                                <a href="project-facebook-messenger-ai-agent.html" class="project-link">View Case Study →</a>
+                            </div>
+                        </article>
+
+                        <article class="project-card">
+                            <div class="project-visual">
+                                <img src="assets/images/Asana CRM Lead Engagement workflow.png" alt="Asana CRM lead engagement automation workflow" loading="lazy">
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Asana CRM Lead Engagement Workflow</h3>
+                                <p class="project-description">Automates lead follow-ups based on Asana task status. It creates client folders, sends timed email follow-ups, prepares quote and welcome emails, and supports the handoff from new lead to paid client.</p>
+                                <div class="project-stack">
+                                    <span>Zapier</span>
+                                    <span>Asana</span>
+                                    <span>Gmail</span>
+                                    <span>Google Drive</span>
+                                    <span>AI by Zapier</span>
+                                </div>
+                                <a href="#" class="project-link">View Case Study →</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="projects-footer">
+                        <a class="btn btn-ghost" href="projects.html">View All Case Studies</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section about" id="about">
+            <div class="container">
+                <div class="about-layout">
+                    <div class="about-left reveal">
+                        <div class="section-header">
+                            <p class="section-label">ABOUT ME</p>
+                            <h2 class="section-title">Engineering calm out of chaos.</h2>
+                        </div>
+                        <p class="about-text">I'm Jefferson Miranda, an aspiring Workflow Automation Specialist focused on helping businesses reduce manual work through automation, integrations, and AI-powered systems.</p>
+                        <p class="about-text">I enjoy analyzing workflows, identifying bottlenecks, and designing solutions that simplify day-to-day operations. Whether it's connecting apps, automating repetitive tasks, or building efficient processes, my goal is to help businesses work smarter and save valuable time.</p>
+                        <p class="about-text">With a background in technical support, I bring a customer-first mindset to every project—combining clear communication, structured problem solving, and continuous learning.</p>
+
+                        <div class="about-stats">
+                            <div class="stat">
+                                <strong>Focus</strong>
+                                <span>Workflow Automation</span>
+                            </div>
+
+                            <div class="stat">
+                                <strong>Location</strong>
+                                <span>Philippines</span>
+                            </div>
+
+                            <div class="stat">
+                                <strong>Availability</strong>
+                                <span>Open for Projects</span>
+                            </div>
+                        </div>
+
+                        <div class="about-training">
+                            <h3 class="about-subtitle">Professional Development</h3>
+                            <ul class="training-list">
+                                <li>Zapier Automation Training</li>
+                                <li>Make Scenario Automation Training</li>
+                                <li>n8n Workflow Automation Training</li>
+                                <li>API Integration Fundamentals</li>
+                                <li>GoHighLevel Workflow Automation</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="about-right reveal">
+                        <div class="about-card">
+                            <h3 class="about-card-title">Core Stack</h3>
+                            <div class="stack-group">
+                                <p class="stack-label">AUTOMATION</p>
+                                <div class="stack-tags">
+                                    <span>Zapier</span>
+                                    <span>Make</span>
+                                    <span>n8n</span>
+                                    <span>GoHighLevel</span>
+                                </div>
+                            </div>
+
+                            <div class="stack-group">
+                                <p class="stack-label">INTEGRATIONS</p>
+                                <div class="stack-tags">
+                                    <span>REST APIs</span>
+                                    <span>Webhooks</span>
+                                </div>
+                            </div>
+
+                            <div class="stack-group">
+                                <p class="stack-label">DEVELOPMENT</p>
+                                <div class="stack-tags">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+                            </div>
+
+                            <div class="stack-group">
+                                <p class="stack-label">DATA & PRODUCTIVITY</p>
+                                <div class="stack-tags">
+                                    <span>Google Sheets</span>
+                                    <span>Airtable</span>
+                                    <span>Notion</span>
+                                </div>
+                            </div>
+
+                            <div class="stack-group">
+                                <p class="stack-label">AI Models & LLMs</p>
+                                <div class="stack-tags">
+                                    <span>OpenAI (GPT-4o/o3)</span>
+                                    <span>Claude (Anthropic)</span>
+                                    <span>DeepSeek-R1</span>
+                                    <span>Llama 3 (Meta)</span>
+                                    <span>Gemini Pro</span>
+                                </div>
+                            </div>
+
+                            <div class="stack-group">
+                                <p class="stack-label">VERSION CONTROL</p>
+                                <div class="stack-tags">
+                                    <span>Git</span>
+                                    <span>GitHub</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-card">
+                            <h3 class="about-card-title">Education</h3>
+                            <p class="education-degree">BS Information Technology</p>
+                            <p class="education-school">Pangasinan State University</p>
+                            <p class="education-year">Graduated 2019</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="container">
+                <div class="contact-layout">
+                    <div class="section-header reveal">
+                        <p class="section-label">CONTACT</p>
+                        <h2 class="section-title">Let's Work Together</h2>
+                        <p class="section-description">Open to freelance projects, full-time roles, and exciting colaboration. Send me a message and I'll get back to you within 24 hours.</p>
+                    </div>
+
+                    <div class="contact-grid">
+                        <div class="contact-info reveal">
+                            <div class="contact-card">
+                                <div class="contact-card__icon">📍</div>
+                                <div class="contact-card__content">
+                                    <div class="contact-card__label">LOCATION</div>
+                                    <div class="contact-card__value">Tarlac, Philippines</div>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-card__icon">📞</div>
+                                <div class="contact-card__content">
+                                    <div class="contact-card__label">PHONE</div>
+                                    <a class="contact-card__value" href="tel:+639453250727">+63 945 325 0727</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-card">
+                                <div class="contact-card__icon">✉️</div>
+                                <div class="contact-card__content">
+                                    <div class="contact-card__label">EMAIL</div>
+                                    <a class="contact-card__value" href="mailto:jheff.miranda26@gmail.com">jheff.miranda26@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-card__icon">in</div>
+                                <div class="contact-card__content">
+                                    <div class="contact-card__label">LINKEDIN</div>
+                                    <a class="contact-card__value" href="https://www.linkedin.com/in/jheffm" target="_blank" rel="noopener">linkedin.com/in/jheffm</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-card__icon">U</div>
+                                <div class="contact-card__content">
+                                    <div class="contact-card__label">UPWORK</div>
+                                    <a class="contact-card__value" href="https://www.upwork.com/freelancers/~0185a916a2abc76f9e" target="_blank" rel="noopener">View Upwork Profile</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-card">
+                                <div class="contact-card__icon">O</div>
+                                <div class="contact-card__content">
+                                    <div class="contact-card__label">ONLINEJOBS.PH</div>
+                                    <a class="contact-card__value" href="https://www.onlinejobs.ph/jobseekers/info/4625645" target="_blank" rel="noopener">View OnlineJobs Profile</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <form class="form reveal">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
+                            <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-layout">
+                <a href="#hero" class="footer-logo"><div class="logo-mark">JM</div></a>
+                <div class="footer-copyright"><p>© <span id="year"></span> Jefferson Miranda. All rights reserved.</p></div>
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/in/jheffm" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://www.upwork.com/freelancers/~0185a916a2abc76f9e" target="_blank" rel="noopener">Upwork</a>
+                    <a href="https://www.onlinejobs.ph/jobseekers/info/4625645" target="_blank" rel="noopener">OnlineJobs</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>
